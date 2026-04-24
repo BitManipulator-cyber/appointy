@@ -3,23 +3,23 @@ const bcrypt = require('bcryptjs');
 
 const userSchema = new mongoose.Schema({
   name: { type: String, required: true, trim: true },
-  email: { type: String, required: true, unique: true, lowercase: true },
+  email: { type: String, required: true, unique: true, lowercase: true, trim: true },
   password: { type: String, required: true },
   role: { type: String, enum: ['patient', 'doctor', 'admin'], default: 'patient' },
-  phone: { type: String },
+  phone: { type: String, trim: true },
   // Patient-specific
-  age: { type: Number },
+  age: { type: Number, min: 0 },
   gender: { type: String, enum: ['Male', 'Female', 'Other'] },
-  bloodGroup: { type: String },
+  bloodGroup: { type: String, trim: true },
   // Doctor-specific
-  specialization: { type: String },
-  qualifications: { type: String },
-  experience: { type: Number },
-  fees: { type: Number },
+  specialization: { type: String, trim: true },
+  qualifications: { type: String, trim: true },
+  experience: { type: Number, min: 0 },
+  fees: { type: Number, min: 0 },
   availableSlots: [{
-    day: String,
-    startTime: String,
-    endTime: String
+    day: { type: String, trim: true },
+    startTime: { type: String, trim: true },
+    endTime: { type: String, trim: true }
   }],
   isApproved: { type: Boolean, default: false }, // For doctors
   isActive: { type: Boolean, default: true },

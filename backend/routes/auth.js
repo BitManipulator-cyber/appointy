@@ -24,6 +24,11 @@ router.post('/register', async (req, res) => {
     res.status(201).json({
       _id: user._id, name: user.name, email: user.email,
       role: user.role, isApproved: user.isApproved,
+      phone: user.phone,
+      specialization: user.specialization,
+      qualifications: user.qualifications,
+      experience: user.experience,
+      fees: user.fees,
       token: generateToken(user._id)
     });
   } catch (err) {
@@ -44,7 +49,11 @@ router.post('/login', async (req, res) => {
     res.json({
       _id: user._id, name: user.name, email: user.email,
       role: user.role, isApproved: user.isApproved,
-      specialization: user.specialization, fees: user.fees,
+      phone: user.phone,
+      specialization: user.specialization,
+      qualifications: user.qualifications,
+      experience: user.experience,
+      fees: user.fees,
       token: generateToken(user._id)
     });
   } catch (err) {
