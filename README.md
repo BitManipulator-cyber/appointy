@@ -15,6 +15,6 @@
   <img src="https://img.shields.io/badge/Auth-JWT-blue?style=for-the-badge" />
   <img src="https://img.shields.io/badge/API-REST-02569B?style=for-the-badge" />
   <img src="https://img.shields.io/badge/Realtime-Patient%20Monitoring-red?style=for-the-badge" />
-  <img src="https://img.shields.io/github/last-commit/YOUR_USERNAME/YOUR_REPO?style=for-the-badge" />
-  <img src="https://img.shields.io/github/repo-size/YOUR_USERNAME/YOUR_REPO?style=for-the-badge" />
+  <img src="https://img.shields.io/github/last-commit/aaditya-jagtap-2205/appointy?style=for-the-badge" />
+  <img src="https://img.shields.io/github/repo-size/aaditya-jagtap-2205/appointy?style=for-the-badge" />
 </p>
