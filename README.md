@@ -137,11 +137,6 @@ Appointy follows a modular client-server architecture:
 </p>
 
 ---
-<p align="center">
-  <img src="./assets/dashboard.png" alt="dashboard preview"/>
-</p>
-
----
 
 ## Role-Based Access
 
