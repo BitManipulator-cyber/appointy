@@ -18,3 +18,89 @@
   <img src="https://img.shields.io/github/last-commit/aaditya-jagtap-2205/appointy?style=for-the-badge" />
   <img src="https://img.shields.io/github/repo-size/aaditya-jagtap-2205/appointy?style=for-the-badge" />
 </p>
+
+## Introduction
+
+Appointy is a full-stack hospital appointment and patient management platform designed to streamline appointment workflows, patient records, and real-time health monitoring.
+
+The platform supports role-based access for patients, doctors, and administrators with dedicated dashboards and authentication flows for each role.
+
+Built using the MERN stack and deployed on AWS EC2, the system focuses on backend architecture, workflow management, and scalable healthcare-oriented APIs.
+
+### Core Features
+
+- Multi-role authentication and authorization
+- Appointment booking and approval workflow
+- Clinical notes and patient history management
+- Real-time patient vitals monitoring
+- Threshold-based alert system
+- RESTful API architecture
+- Cloud deployment using AWS EC2 and MongoDB Atlas
+
+---
+
+## Architecture Overview
+
+Appointy follows a modular client-server architecture:
+
+- **Frontend:** React.js
+- **Backend:** Node.js + Express.js
+- **Database:** MongoDB Atlas
+- **Deployment:** AWS EC2
+- **Authentication:** JWT-based authentication
+- **Realtime Monitoring:** Socket/event-driven vitals updates
+
+---
+
+## Dashboard Preview
+
+<p align="center">
+  <img src="./assets/dashboard.png" alt="dashboard preview"/>
+</p>
+
+---
+
+## Role-Based Access
+
+### Patient
+- Book appointments
+- Track appointment status
+- Access prescriptions and clinical notes
+
+### Doctor
+- Approve or reject appointments
+- Add consultation notes
+- Monitor patient vitals
+
+### Admin
+- Manage platform users
+- Oversee appointments and records
+- Monitor system activity
+
+---
+
+# Setup
+
+1. Clone the repository
+
+```bash
+git clone https://github.com/aaditya-jagtap-2205/appointy.git
+cd appointy
+```
+
+2. Install dependancies
+```bash
+cd frontend/ && npm install
+cd backend/  && npm install
+```
+
+3. Seed sample data to MongoDB
+```bash
+cd backend/
+npm run seed
+```
+
+4. Run the project
+```bash
+cd frontend/ && npm start
+cd backend/  && npm start
