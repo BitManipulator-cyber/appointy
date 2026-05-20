@@ -52,8 +52,91 @@ Appointy follows a modular client-server architecture:
 
 ---
 
-## Dashboard Preview
+# Application Screenshots
 
+## Welcome Page
+
+<p align="center">
+  <img src="./assets/welcome.png" alt="welcome page" width="90%">
+</p>
+
+<p align="center">
+  Landing page providing quick access to patient and doctor login portals.
+</p>
+
+---
+
+## Patient Login
+
+<p align="center">
+  <img src="./assets/patient_login.png" alt="patient login" width="85%">
+</p>
+
+<p align="center">
+  Secure authentication interface for patients.
+</p>
+
+---
+
+## Doctor Login
+
+<p align="center">
+  <img src="./assets/doctor_login.png" alt="doctor login" width="85%">
+</p>
+
+<p align="center">
+  Dedicated login interface for doctors with role-based access control.
+</p>
+
+---
+
+## Patient Dashboard
+
+<p align="center">
+  <img src="./assets/patient_dashboard.png" alt="patient dashboard" width="95%">
+</p>
+
+<p align="center">
+  Dashboard for appointment booking, appointment tracking, and patient record access.
+</p>
+
+---
+
+## Doctor Dashboard
+
+<p align="center">
+  <img src="./assets/doctor.png" alt="doctor dashboard" width="95%">
+</p>
+
+<p align="center">
+  Doctor workspace for appointment management, patient monitoring, and clinical workflow handling.
+</p>
+
+---
+
+## Appointment Workflow Management
+
+<p align="center">
+  <img src="./assets/appointment_status.png" alt="appointment workflow" width="95%">
+</p>
+
+<p align="center">
+  Doctors can approve, reject, or complete appointments through the appointment lifecycle management system.
+</p>
+
+---
+
+## Admin Dashboard
+
+<p align="center">
+  <img src="./assets/admin.png" alt="admin dashboard" width="95%">
+</p>
+
+<p align="center">
+  Administrative dashboard for managing users, appointments, and overall platform operations.
+</p>
+
+---
 <p align="center">
   <img src="./assets/dashboard.png" alt="dashboard preview"/>
 </p>
